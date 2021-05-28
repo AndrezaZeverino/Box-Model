@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+
+   #content-box{
+     box-sizing: content-box;
+     padding: 20px;
+     width: 200px;
+     background-color: coral;
+     /* adiciona o padding nas laterais - esse é o padrão */
+   }
+
+   #border-box{
+     box-sizing: border-box;
+     padding: 20px;
+     width: 200px;
+     background-color: greenyellow;
+     /* não adiciona o padding nas laterais */
+   }
+
+    </style>
+</head>
+<body>
+    <div id="content-box">Content-box</div>
+    <div id="border-box">Border-box</div>
+</body>
+</html>
